@@ -39,6 +39,10 @@ body {
     font-size: 3rem;
 }
 
+.quote {
+    width: 100%;
+}
+
 .author {
     margin: 10px 0;
     font-style: italic;
@@ -62,7 +66,6 @@ body {
     color: white;
     box-shadow: 0 5px rgba(53, 53, 53, 0.4);
 }
-
     
 .buttons .twitter_button{
     font-size: 1.1rem;
@@ -91,8 +94,6 @@ body {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
-
-
 
 @media screen and (max-width: 700px) {
     .quote_contaner .quote_text span {

@@ -1,6 +1,5 @@
 let apiQuote = [];
-
-const quoteContaner = document.querySelector('.quote_contaner');
+const quote = document.querySelector('.quote');
 const quoteHTML = document.querySelector('#quote');
 const authorHTML = document.querySelector('#author');
 const newQuoteBtn = document.querySelector('.new_quote');
@@ -10,13 +9,13 @@ const loader = document.querySelector('.loader');
 // loading animation
 function loading () {
     loader.hidden = false;
-    quoteContaner.hidden = true;
+    quote.hidden = true;
 };
 
 // loading complete
 function loadingComplete () {
     loader.hidden = true;
-    quoteContaner.hidden = false;
+    quote.hidden = false;
 };
 
 // Function for getting new quote randomly
